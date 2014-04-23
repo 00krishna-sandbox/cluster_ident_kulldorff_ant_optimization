@@ -101,5 +101,4 @@ def get_counts_per_pixel(data, increment):
     leftbx - float - the left bottom x-coordinate of the pixel
 
 
-
     """
