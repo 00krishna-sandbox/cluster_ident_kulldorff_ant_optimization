@@ -85,4 +85,21 @@ def create_grid(xmin, xmax, ymin, ymax, inc):
     return count_grid
 
 
-def get_counts_per_pixel(data, grid):
+def get_counts_per_pixel(data, increment):
+    """
+    This function will take a set of event data, create a grid, and aggregate
+    the event counts by grid pixel.
+
+    parameters:
+
+    data: numpy.array - a numpy array with data
+
+    returns:
+
+    numpy array with a column for.
+
+    leftbx - float - the left bottom x-coordinate of the pixel
+
+
+
+    """
