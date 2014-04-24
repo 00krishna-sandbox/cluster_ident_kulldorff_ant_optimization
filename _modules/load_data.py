@@ -106,7 +106,7 @@ def generate_random_exponential_data(dlamb, num = 100):
 
     return np.asarray(zip(xcoord, ycoord), dtype=np.float64)
 
-def generate_random_uniform_data(rmax, rmin, num = 100):
+def generate_random_uniform_data(rmin, rmax,num = 100):
     """
     This function will generate some uniform 2d data. There is
     no time series information here. This is just a one-time bunch of points.
