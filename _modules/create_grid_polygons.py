@@ -134,7 +134,7 @@ def get_counts_per_pixel(data, increment):
     # Count the number of records that fall into each bin and save those
     # numbers to the 9th column of the grid array.
 
-    for i in xrange(g.shape[0]):
+    for i in xrange(g.shape[0] + 1):
         g[i, 9] = sum(np.logical_and(np.logical_and(data[:,0] > g[i,0], data[:,0]< g[i,2]),
                        np.logical_and(data[:,1] > g[i,1],data[:,1] < g[i,5])))
 
